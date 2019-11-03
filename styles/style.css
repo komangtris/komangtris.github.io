@@ -1,0 +1,361 @@
+/*Start Font*/
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+/*End Font*/
+
+/*Start body*/
+body {
+    color: black;
+    background-image:url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?cs=srgb&dl=art-background-close-up-1939485.jpg&fm=jpg) ;
+    font-family: Arvo, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0 ;
+    padding: 0;
+}
+/*End body*/
+
+/*Start Debug*/
+.bg-blue {
+    background-color: #b97375;
+}
+
+.bg-red{
+    background-color:black ;
+}
+/*End Debug*/
+
+/*Start Container*/
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/*End Container*/
+
+/*Start Logo*/
+.logo{
+    padding-top: 8px;
+    text-align: center;
+}
+/*End Logo*/
+
+/*Start Anchor/ Hyperlink*/
+a:link,
+a:visited {
+    color: burlywood;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/*End Anchor/ Hyperlink*/
+
+/*Start Menu Primer*/
+.menu-primer{
+    margin: 0 auto;
+}
+.menu-primer ul{
+    background-color:#333333;
+    border-radius:4px;
+    margin: 0 auto;
+    box-shadow:
+        0 3px 5px -1px rgba(0,0, 0,.2),
+        0 6px 10px 0 rgba(0, 0,0,.14),
+        0 1px 18px 0 rgba(0, 0,0,.12);
+}
+ 
+.menu-primer li{
+    display: inline-block;
+    border-right: 1px solid#dac720;
+    display: inline-block;
+    margin: 0;
+}
+
+.disable-garis {
+    border-right: none!important;
+}
+
+.menu-primer a{
+    color: #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover{
+    background-color: #f7f7f7;
+    color: #000000;
+}
+
+.menu-primer a.enable {
+    background-color: #ffffff;
+    color:#333333;
+    text-decoration: none;
+}
+/*End Menu Primer*/
+
+/*Start Heading*/
+h1, h2,h3, h4, h5, h6 {
+    font-weight: 400px;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+h5{
+    font-size: 14px;
+}
+
+h6{
+    font-size: 13px;
+}
+
+/*End Heading*/
+
+/*Start Jumbotron*/
+.jumbotron {
+    background-color: white;
+    border: 1px solid hsla(44, 95%, 44%, 0.966);
+    border-radius: 4px;
+    padding: 20px 0;
+}
+
+.jumbotron h1 {
+    font-size:32px;
+    padding: 0 20px;
+}
+
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/*End Jumbotron*/
+
+/*Start Main*/
+.main-home-one{
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two{
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi{
+    height: 140px;
+}
+/*End Main*/
+
+/*Start Box*/
+.box-heading {
+    background-color: #f6f8fa ;
+    border: 1px solid #d1d5da ;
+    border-radius: 3px 3px 0 0; 
+    margin:0 ;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #eaecef ;
+    border-top: 0 ;
+    margin:0 ;
+    padding: 10px 20px;
+}
+/*End Box*/
+
+/*Start Menu Sekunder*/
+.menu-sekunder {
+    background-color: white ;
+    border: 1px solid hsla(44, 95%, 44%, 0.966);
+    border-bottom: 1px solid hsla(44, 95%, 44%, 0.966);
+    border-top: 1px solid hsla(44, 95%, 44%, 0.966);
+    overflow: auto;
+    padding: 10px o;
+}
+.menu-sekunder-h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding:0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one{
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+
+.menu-sekunder p img{
+    vertical-align: middle;
+}
+/*End Menu Sekunder*/
+
+/*Start Copyright*/
+.copyright p {
+    font: size 15px;
+
+}
+/*Start Copyright*/
+
+/*Start Effect*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,600,700);
+.snip1527 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  font-family: 'Lato', Arial, sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  max-width: 31%;
+  min-width: 31%;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.snip1527 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.snip1527 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.snip1527 figcaption {
+  padding: 25px 20px 25px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.snip1527 figcaption:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ff8c00;
+  content: '';
+  background: -moz-linear-gradient(90deg, #ff8c00 0%, #ffd700 100%, #ffdb58 100%);
+  background: -webkit-linear-gradient(90deg, #ff8c00 0%, #ffd700 100%, #ffdb58 100%);
+  background: linear-gradient(90deg, #ff8c00 0%, #ffd700 100%, #ffdb58 100%);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.snip1527 .date {
+  background-color: #fff;
+  border-radius: 50%;
+  color: orangered;
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 10px 0;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  top: -25px;
+}
+
+.snip1527 .date span {
+  display: block;
+  line-height: 14px;
+}
+
+.snip1527 .date .month {
+  font-size: 11px;
+}
+
+.snip1527 h3,
+.snip1527 p {
+  margin: 0;
+  padding: 0;
+}
+
+.snip1527 h3 {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-bottom: 5px;
+}
+
+.snip1527 p {
+  font-size: 0.8em;
+  line-height: 1.6em;
+  margin-bottom: 0px;
+}
+
+.snip1527 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.snip1527:hover img,
+.snip1527.hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+Resources
+/*End Effect*/
