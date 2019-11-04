@@ -266,8 +266,8 @@ h6{
   display: inline-block;
   font-size: 16px;
   margin: 10px;
-  max-width: 31%;
-  min-width: 31%;
+  max-width: 23%;
+  min-width: 23%;
   overflow: hidden;
   position: relative;
   text-align: left;
@@ -282,7 +282,7 @@ h6{
 }
 
 .snip1527 img {
-  max-width: 100%;
+  width: 100%;
   vertical-align: top;
   position: relative;
 }
